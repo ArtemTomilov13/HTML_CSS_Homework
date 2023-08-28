@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(./font/Gilroy-Bold.woff2);
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url(./font/Gilroy-Medium.woff2);
+}
+
+@font-face {
+    font-family: "Gilroy-Semibold";
+    src: url(./font/Gilroy-Semibold.woff2);
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    padding-top: 40px, ;
+}
+
+main {
+    padding-top: 164px;
+}
+
+footer {
+    padding-bottom: 96px;
+}
