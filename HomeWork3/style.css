@@ -28,14 +28,74 @@ img {
     display: block;
 }
 
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
 header {
-    padding-top: 40px, ;
+    padding-top: 51px;
 }
 
 main {
-    padding-top: 164px;
+    padding-top: 96px;
 }
 
 footer {
-    padding-bottom: 96px;
+    padding-top: 162px;
+}
+
+.home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+}
+
+a {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.text_main {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.text_content {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button_start {
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.button_video {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
 }
