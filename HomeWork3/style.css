@@ -59,6 +59,8 @@ footer {
     font-size: 14px;
     font-style: normal;
     line-height: normal;
+    display: flex;
+    gap: 30px;
 }
 
 .text_main {
@@ -101,4 +103,27 @@ footer {
     line-height: normal;
     border: none;
     background: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_main {
+    max-width: 522px;
+}
+
+.text_content {
+    max-width: 466px;
 }
