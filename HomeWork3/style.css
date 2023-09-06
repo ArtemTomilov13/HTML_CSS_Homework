@@ -127,3 +127,19 @@ footer {
 .text_content {
     max-width: 466px;
 }
+
+.content {
+    display: flex;
+    gap: 50px;
+}
+
+.button {
+    display: flex;
+    gap: 60px;
+}
+
+.content_left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
