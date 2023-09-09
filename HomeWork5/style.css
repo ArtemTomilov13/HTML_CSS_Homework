@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(./font/Gilroy-Bold.woff2);
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url(./font/Gilroy-Medium.woff2);
+}
+
+@font-face {
+    font-family: "Gilroy-Semibold";
+    src: url(./font/Gilroy-Semibold.woff2);
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 51px;
+}
+
+main {
+    padding-top: 96px;
+}
+
+article {
+    padding-top: 162px;
+}
+
+.home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.nav {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    display: flex;
+    gap: 30px;
+}
+
+.text_main {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.text_content {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button_start {
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+    border: none
+}
+
+.button_video {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+    border: none;
+    background: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_main {
+    max-width: 522px;
+}
+
+.text_content {
+    max-width: 466px;
+}
+
+.content {
+    display: flex;
+    gap: 50px;
+}
+
+.button {
+    display: flex;
+    gap: 60px;
+}
+
+.content_left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cards_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.card_bottom {
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 370px;
+    height: 549px;
+    padding-top: 0px;
+}
+
+.text_bottom_p {
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    width: 310px;
+    height: 63px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 22px;
+    padding-bottom: 39px;
+}
+
+.text_bottom_h2 {
+    padding-top: 30px;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.text_top_h2 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    padding-top: 25px;
+    padding-bottom: 17px;
+}
+
+.text_center_h2 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text_center_p {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    width: 682px;
+    height: 48px;
+    padding-left: 290px;
+    padding-top: 19px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.text_top_p {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    padding-bottom: 25px;
+    width: 310px;
+    height: 42px;
+}
+
+.text_top_h6 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+}
+
+.card_center {
+    grid-column: span 3;
+    grid-row: span 1;
+    gap: 19px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.card_top {
+    padding: auto;
+    width: 370px;
+    height: 291px;
+    padding-left: 30px;
+}
+
+.box1 {
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.box2 {
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
