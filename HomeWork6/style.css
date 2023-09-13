@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "latobold";
+    src: url(./font/lato/latobold.woff2);
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.container_nav {
+    height: 75px;
+}
+
+.navigation {
+    display: flex;
+    background-color: #222;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+.button_container_left {
+    width: 111px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_container_right {
+    width: 159px;
+    height: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_content {
+    max-height: 764px;
+    background-color: #F1E4E6;
+    display: flex;
+    justify-content: center;
+}
+
+.top_text_container {
+    width: 405px;
+    height: 93.1px;
+    display: flex;
+    align-self: center;
+    border-left: 12px solid #F16D7F;
+}
+
+.top_text_1 {
+    font-family: latobold;
+    font-size: 48px;
+    line-height: 57.6px;
+    color: #222222;
+}
+
+.top_text_2 {
+    font-family: latobold;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #222222;
+}
+
+.top_text_3 {
+    font-family: latobold;
+    font-size: 37px;
+    line-height: 44.4px;
+    color: #F16D7F;
+}
+
+.text_padding {
+    padding-left: 16px;
+}
