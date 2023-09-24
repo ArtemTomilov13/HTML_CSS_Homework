@@ -37,21 +37,21 @@ body {
     justify-content: space-between;
 }
 
-.bottom {
+.button {
     border: none;
     background: none;
     display: flex;
     align-items: flex-end;
 }
 
-.bottom_container_left {
+.button_container_left {
     width: 111px;
     height: 38px;
     display: flex;
     justify-content: space-between;
 }
 
-.bottom_container_right {
+.button_container_right {
     width: 159px;
     height: 29px;
     display: flex;
@@ -67,8 +67,8 @@ body {
 }
 
 .top_text_container {
-    margin-left: 64px;
-    width: 480px;
+    margin-left: 45px;
+    width: 430px;
     height: 93.1px;
     display: flex;
     align-self: center;
@@ -221,7 +221,7 @@ body {
     font-weight: 300;
     line-height: normal;
     padding-left: 16px;
-    width: 315px;
+    width: 330px;
 }
 
 .text_card_bottom {
@@ -338,5 +338,97 @@ body {
     .down {
         margin-top: 32px;
         margin-bottom: 70px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .button_none_1 {
+        display: none;
+    }
+
+    .button_none_2 {
+        display: none;
+    }
+
+    .button_container_right {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .button_container_left {
+        margin-left: 16px;
+    }
+
+    .button_container_right {
+        margin-right: 16px;
+    }
+
+
+
+
+    .container_nav {
+        max-width: 375px;
+        background-color: #222;
+    }
+
+    .top_content {
+        width: 375px;
+        height: 363px;
+    }
+
+    .container_section {
+        background-color: #F1E4E6;
+    }
+
+    .img_none {
+        display: none;
+    }
+
+    .top_text_1 {
+        font-size: 38px;
+    }
+
+    .top_text_2 {
+        font-size: 20px;
+    }
+
+    .top_text_3 {
+        font-size: 20px;
+    }
+
+    .content_center_top {
+        max-width: 343px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 64px;
+        gap: 32px;
+    }
+
+    .img {
+        position: relative;
+        width: 343px;
+        height: 248px;
+        text-align: center;
+    }
+
+    .img_long {
+        width: 343x;
+        height: 111px;
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+
+
+
+    .card_center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
